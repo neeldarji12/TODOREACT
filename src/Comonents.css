@@ -7,13 +7,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f3f3f3;
+    background: #deeee7;
     padding: 30px;
 }
 
 /* ---------- COMMON CONTAINER ---------- */
 .container {
-    width: auto;
+    width: 49%;
     margin: auto;
     padding: 25px;
     background: white;
@@ -32,7 +32,7 @@ body {
 .card {
     padding: 15px;
     border-radius: 10px;
-    background: #eef5ff;
+    background: #b4f3db71;
     margin-top: 15px;
     border-left: 5px solid #121213;
 }
@@ -50,8 +50,8 @@ body {
 /* ---------- BUTTON ---------- */
 .btn {
     padding: 10px 20px;
-    background: #070707;
-    color: white;
+    background: #76f0b7;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -59,7 +59,8 @@ body {
 }
 
 .btn:hover {
-    background-color: #1565c0;
+    background-color: #070707;
+    color: white;
 }
 
 /* ---------- TEXT ---------- */
