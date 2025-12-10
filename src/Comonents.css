@@ -1,0 +1,74 @@
+/* ---------- GLOBAL RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    padding: 30px;
+}
+
+/* ---------- COMMON CONTAINER ---------- */
+.container {
+    width: auto;
+    margin: auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.15);
+}
+
+/* ---------- TITLE ---------- */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* ---------- CARD ---------- */
+.card {
+    padding: 15px;
+    border-radius: 10px;
+    background: #eef5ff;
+    margin-top: 15px;
+    border-left: 5px solid #121213;
+}
+
+/* ----Input------ */
+.inp {
+    width: 40%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* ---------- BUTTON ---------- */
+.btn {
+    padding: 10px 20px;
+    background: #070707;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #1565c0;
+}
+
+/* ---------- TEXT ---------- */
+.text {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.btn{
+    margin-top: 15px;
+    margin-right: 10px;
+}
